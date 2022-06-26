@@ -81,28 +81,7 @@ tweetSubBtn.addEventListener('click', function(e){
 
     
 
-    // console.log(tweetArr);
-
-    
-
-    // console.log(tweetArr);
-
-    // var dateObj = new Date();
-    // var month = dateObj.getUTCMonth() + 1; //months from 1-12
-    // var day = dateObj.getUTCDate();
-    // var year = dateObj.getUTCFullYear();
-
-    // newdate = year + "/" + month + "/" + day;
-    
-
-    // let postTime =  newdate;
-
-    
-
-    // let currDate = date.toLocaleString();
-    // console.log(typeof currDate)
-
-    // console.log(postTime);
+  
 
     
 
@@ -359,5 +338,4 @@ function deleteTweetFromLocalStorag(id){
     localStorage.setItem('storeTweets', JSON.stringify(tweetAfterRemove));
 }
 
-// const time = document.querySelector('.time');
-// time.textContent = new Date().toDateString();
+//Create by Muhammad Jahangir Alam
