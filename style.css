@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+main{
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 30px auto;
+    width: 750px;
+    
+}
+
+input{
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 4px 8px;
+    font-size: 17px;
+}
+
+.tweetWordCount{
+    margin-top: 8px;
+}
+
+input[type="submit"], input[type="button"]{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover{
+    background-color: aqua;
+    transform: 0.5s ease;
+    -webkit-transform: 0.5s ease;
+    -moz-transform: 0.5s ease;
+    -ms-transform: 0.5s ease;
+    -o-transform: 0.5s ease;
+}
+
+.fullTweetBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.tweetPost{
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.tweetPost form{
+    width: 100%;
+}
+
+.allTweets{
+    width: 50%;
+    padding: 15px;
+}
+
+.tweetList .searchTweets{
+    margin-top: 15px;
+}
+.searchTweets{
+    padding: 20px 0 20px 0;
+}
+
+.tweetList{
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.tweetList ol li{
+    padding-bottom: 8px;
+    margin: 35px 0;
+    border-bottom: 1px dotted lightgray;
+}
+
+.tweetList ol li button{
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 15px;
+}
